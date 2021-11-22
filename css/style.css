@@ -4,3 +4,6 @@
 @layer components{
 
 }
+.w-fit-content{
+    width:fit-content;
+}

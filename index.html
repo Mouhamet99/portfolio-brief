@@ -5,18 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learning Tailwind CSS</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <!-- Google font  -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"> 
-    <!-- Custom style  -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">     <!-- Custom style  -->
     <link href="./css/style.css" rel="stylesheet">
     <!-- Tailwind Cdn link  -->
     <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
 </head>
-
-<body class="bg-black">
+<body class="min-h-screen w-screen bg-black font-paragraph ">
+        <header class="w-screen fixed bg-gray-500 text-white uppercase font-title text-xs">
+            <nav>
+                <ul class="flex justify-between align-center">
+                    <li class="p-2 hover:bg-black "><a href="#home">Home</a></li>
+                    <li class="p-2 hover:bg-black "><a href="#about-me">About Me</a></li>
+                    <li class="p-2 hover:bg-black "><a href="#works">Works</a></li>
+                    <li class="p-2 hover:bg-black "><a href="#Course">Course</a></li>
+                    <li class="p-2 hover:bg-black "><a href="#Course">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="w-full pt-24 text-white ">
+            <section class="banner w-fit-content mx-auto font-title pb-16" id="home">
+                <p class=" uppercase text-indigo-600">i am</p>
+                <p class="text-2xl capitalize">Dieye Mouhamet</p>
+                <p class="w-fit-content mt-3 text-xs bg-indigo-600 hover:bg-indigo-900 ">FullStack Developper and Designer</p>
+            </section>
+            <img src="./img/photo-dieye3v2.png" alt="" class="img-responsive w-full  max-w-sm mx-auto">
+            <section class="" id="about-me">
+                
+            </section>
+        </main>
 <script src="./js/script.js"></script>
 </body>
 </html>
