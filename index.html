@@ -12,29 +12,186 @@
     <!-- Tailwind Cdn link  -->
     <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
 </head>
-<body class="min-h-screen w-screen bg-black font-paragraph ">
-        <header class="w-screen fixed bg-gray-500 text-white uppercase font-title text-xs">
+<body class="bg-black font-paragraph ">
+    <div class="w-h-screen">
+        <header class="bg-gray-300 fixed z-10 font-title justify-center text-sm w-screen">
             <nav>
-                <ul class="flex justify-between align-center">
-                    <li class="p-2 hover:bg-black "><a href="#home">Home</a></li>
-                    <li class="p-2 hover:bg-black "><a href="#about-me">About Me</a></li>
-                    <li class="p-2 hover:bg-black "><a href="#works">Works</a></li>
-                    <li class="p-2 hover:bg-black "><a href="#Course">Course</a></li>
-                    <li class="p-2 hover:bg-black "><a href="#Course">Contact</a></li>
+                <ul class="flex justify-between align-center uppercase">
+                    <li class="py-2 px-2.5 hover:bg-black hover:text-white transform transition active:bg-black active"><a href="#home">Home</a></li>
+                    <li class="py-2 px-2.5 hover:bg-black hover:text-white transform transition "><a href="#about-me">About Me</a></li>
+                    <li class="py-2 px-2.5 hover:bg-black hover:text-white transform transition "><a href="#works">Works</a></li>
+                    <li class="py-2 px-2.5 hover:bg-black hover:text-white transform transition "><a href="#Course">Course</a></li>
+                    <li class="py-2 px-2.5 hover:bg-black hover:text-white transform transition "><a href="#Course">Contact</a></li>
                 </ul>
             </nav>
         </header>
         <main class="w-full pt-24 text-white ">
+            <!-- Banner Section -->
             <section class="banner w-fit-content mx-auto font-title pb-16" id="home">
-                <p class=" uppercase text-indigo-600">i am</p>
-                <p class="text-2xl capitalize">Dieye Mouhamet</p>
-                <p class="w-fit-content mt-3 text-xs bg-indigo-600 hover:bg-indigo-900 ">FullStack Developper and Designer</p>
+                <div class="pl-8">
+                    <p class=" uppercase text-indigo-600 underline">i am</p>
+                    <p class="text-2xl capitalize">Dieye <br> Mouhamet</p>
+                    <p class="w-fit-content mt-3 rounded bg-indigo-600 hover:bg-indigo-900 ">FullStack Developper and Designer</p>
+                    <img src="./img/photo-dieye3v2.png" alt="" class="img-responsive w-full  max-w-sm mx-auto">
+                </div>
             </section>
-            <img src="./img/photo-dieye3v2.png" alt="" class="img-responsive w-full  max-w-sm mx-auto">
-            <section class="" id="about-me">
-                
+            <!-- End Banner Section -->
+            <!-- About me  Section -->
+            <section class="font-paragraph" id="about-me">
+                <h1 class="text-center text-lg font-title mb-4">&lt;/About me &gt;</h1>
+                <article class="p-3" id="who-am-i">
+                    <div class="divide-y-2 divide-gray-100 w-fit-content">
+                        <h2 class="font-title my-2 ">Who Am I?</h2>
+                        <h2 class="font-title my-2 "></h2>
+                    </div>
+                    <p class="text-justify my-10 p-3">
+                        In the eighteenth century the German 
+                        philosopher Immanuel Kant developed a 
+                        theory of knowledge in which knowledge 
+                        about space can be both a priori and 
+                        synthetic. According to Kant, knowledge 
+                        about space is synthetic, in that 
+                        statements about space are not simply 
+                        true by virtue of the meaning of the 
+                        words in the statement. In his work, Kant 
+                        rejected the view that space must be 
+                        either a substance or relation. Instead he 
+                        came to the conclusion that space and 
+                        time are not discovered by humans to 
+                        be objective features of the world, but 
+                        imposed by us as part of a framework 
+                        for organizing experience.
+                    </p>
+                </article>
+                <!-- Tech Skills -->
+                <article class="p-3" id="tech-skills">
+                    <div class="divide-y-2 divide-gray-100 w-fit-content">
+                        <h2 class="font-title my-2 ">Tech-Skills</h2>
+                        <h2 class="font-title my-2 "></h2>
+                    </div>
+                    <p class="my-10">
+                        <div class="tech-skills-item my-4">
+                            <p class="text-sm text-light mb-2 ">HTML CSS</p>
+                            <div class="w-100 h-5 bg-gray-100">
+                                <div class="w-10/12 h-5 bg-gray-400"></div>
+                            </div>
+                        </div>
+                        <div class="tech-skills-item my-4">
+                            <p class="text-sm text-light mb-2 ">PHP[Symfony]</p>
+                            <div class="w-100 h-5 bg-gray-100">
+                                <div class="w-10/12 h-5 bg-gray-400"></div>
+                            </div>
+                        </div>
+                        <div class="tech-skills-item my-4">
+                            <p class="text-sm text-light mb-2 ">Java</p>
+                            <div class="w-100 h-5 bg-gray-100">
+                                <div class="w-10/12 h-5 bg-gray-400"></div>
+                            </div>
+                        </div>
+                        <div class="tech-skills-item my-4">
+                            <p class="text-sm text-light mb-2 ">JavaScript</p>
+                            <div class="w-100 h-5 bg-gray-100">
+                                <div class="w-10/12 h-5 bg-gray-400"></div>
+                            </div>
+                        </div>
+                        <div class="tech-skills-item my-4">
+                            <p class="text-sm text-light mb-2 ">Database[]</p>
+                            <div class="w-100 h-5 bg-gray-100">
+                                <div class="w-10/12 h-5 bg-gray-400"></div>
+                            </div>
+                        </div>
+                        <div class="tech-skills-item my-4">
+                            <p class="text-sm text-light mb-2 ">Design[Illustrator, Photoshop, Figma]</p>
+                            <div class="w-100 h-5 bg-gray-100">
+                                <div class="w-10/12 h-5 bg-gray-400"></div>
+                            </div>
+                        </div>
+                    </p>
+                </article>
+                <!-- End Tech Skills -->
+                <!-- Soft skills -->
+                <article class="p-3" id="soft-skills">
+                    <div class="divide-y-2 divide-gray-100 w-fit-content">
+                        <h2 class="font-title my-2 ">Soft-Skills</h2>
+                        <h2 class="font-title my-2 "></h2>
+                    </div>
+                    <div class="my-10 flex flex-col align-center justify-center">
+                        <div class="soft-skills-item my-4 mx-auto w-fit-content transform scale-125 md:scale-100">
+                            <svg class="soft-skills-progress-circle " width="200" height="200">
+                                <g stroke="red" x="0" y="0">
+                                    <circle cx="100" cy="100" r="80" stroke="#fff" fill="transparent"  stroke-width="8"    transform="rotate(-90, 100, 100)"></circle>
+                                    <circle cx="100" cy="100" r="80" stroke="purple" fill="transparent "  stroke-width="8"     stroke-dasharray="440" stroke-dashoffset="-100"  transform="rotate(-90, 100, 100)"></circle>
+                                </g>  
+                            </svg>  
+                            <span class="textInCircle text-sm w-fit-content">Comminication</span> 
+                        </div>
+                        <div class="soft-skills-item my-4 mx-auto w-fit-content transform scale-125 md:scale-100">
+                            <svg class="soft-skills-progress-circle " width="200" height="200">
+                                <g stroke="red" x="0" y="0">
+                                    <circle cx="100" cy="100" r="80" stroke="#fff" fill="transparent"  stroke-width="8"    transform="rotate(-90, 100, 100)"></circle>
+                                    <circle cx="100" cy="100" r="80" stroke="#6AE2A0" fill="transparent "  stroke-width="8"     stroke-dasharray="440" stroke-dashoffset="-100"  transform="rotate(-90, 100, 100)"></circle>
+                                </g>  
+                            </svg>  
+                            <span class="textInCircle text-sm w-fit-content">Team Working </span> 
+                        </div>
+                        <div class="soft-skills-item my-4 mx-auto w-fit-content transform scale-125 md:scale-100">
+                            <svg class="soft-skills-progress-circle " width="200" height="200">
+                                <g stroke="red" x="0" y="0">
+                                    <circle cx="100" cy="100" r="80" stroke="#fff" fill="transparent"  stroke-width="8"    transform="rotate(-90, 100, 100)"></circle>
+                                    <circle cx="100" cy="100" r="80" stroke="#FC5C52" fill="transparent "  stroke-width="8"     stroke-dasharray="440" stroke-dashoffset="-100"  transform="rotate(-90, 100, 100)"></circle>
+                                </g>  
+                            </svg>  
+                            <span class="textInCircle text-sm w-fit-content">Autonomy</span> 
+                        </div>
+                        <div class="soft-skills-item my-4 mx-auto w-fit-content transform scale-125 md:scale-100">
+                            <svg class="soft-skills-progress-circle " width="200" height="200">
+                                <g stroke="red" x="0" y="0">
+                                    <circle cx="100" cy="100" r="80" stroke="#fff" fill="transparent"  stroke-width="8"    transform="rotate(-90, 100, 100)"></circle>
+                                    <circle cx="100" cy="100" r="80" stroke="indigo" fill="transparent "  stroke-width="8"     stroke-dasharray="440" stroke-dashoffset="-100"  transform="rotate(-90, 100, 100)"></circle>
+                                </g>  
+                            </svg>  
+                            <span class="textInCircle text-sm w-fit-content">Curiosity</span> 
+                        </div>
+                    </div>
+            
+            
+            
+                </article>
+                <!--  End Soft Skills -->
+                <!--  Hobby -->
+                <article class="p-3 " id="hobby">
+                    <div class="divide-y-2 divide-gray-100 w-fit-content">
+                        <h2 class="font-title my-2 ">Hobby</h2>
+                        <h2 class="font-title my-2 "></h2>
+                    </div>
+                    <article class="max-w-sm flex align-center bg-gray-800  img-wrapper mx-auto my-10 p-4 rounded">
+                        <img class="img-responsive" src="./img/svg/undraw_developer_activity_re_39tg.svg" alt="" width="100">
+                        <div class="text-sm ml-4">
+                            <h3 class="bg-indigo-800 my-2 px-2 rounded w-fit-content">Watching Videos on Youtube</h3>
+                            <p class="">I reguraly watch videos about programming , motivation and design</p>
+                        </div>
+                    </article>
+                    <article class="max-w-sm flex align-center bg-gray-800  img-wrapper mx-auto my-10 p-4 rounded">
+                        <img class="img-responsive" src="./img/svg/undraw_developer_activity_re_39tg.svg" alt="" width="100">
+                        <div class="text-sm ml-4">
+                            <h3 class="bg-indigo-800 my-2 px-2 rounded w-fit-content">Documentation</h3>
+                            <p class="">I spend time to explore new thing in order to improve my skills.</p>
+                        </div>
+                    </article>
+                    <article class="max-w-sm flex align-center bg-gray-800  img-wrapper mx-auto my-10 p-4 rounded">
+                        <img src="./img/svg/undraw_junior_soccer_6sop.svg" alt="" width="100">
+                        <div class="text-sm ml-4">
+                            <h3 class="bg-indigo-800 my-2 px-2 rounded w-fit-content">Playing FootBall</h3>
+                            <p class="">In order get some air, I play football with friends in the same area </p>
+                        </div>
+                    </article>
+                </article>
+                <!-- End Hobby -->
             </section>
+            <!-- End About me  Section -->
+
         </main>
+    </div>
 <script src="./js/script.js"></script>
 </body>
 </html>

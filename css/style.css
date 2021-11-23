@@ -5,5 +5,20 @@
 
 }
 .w-fit-content{
+    width:-moz-fit-content;
     width:fit-content;
+}
+.divider{
+    height:2px;
+}
+.soft-skills-item {
+    position:relative;
+}
+.soft-skills-item span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    margin: 0 auto;
 }
