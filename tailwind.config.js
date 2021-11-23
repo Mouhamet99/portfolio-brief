@@ -5,7 +5,7 @@ module.exports = {
         extend: {},
         fontFamily: {
             'title': ['"Roboto Mono"','ui-monospace'],
-            'paragraph': ['Poppins', 'ans-serif'],
+            'paragraph': ['Poppins', 'sans-serif'],
         }
     },
     variants: {
